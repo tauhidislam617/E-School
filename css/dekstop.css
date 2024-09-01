@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --primary-color: #21B573;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background-color: #F0FFF0;
+    padding: 32px 0;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 8px 20px;
+    display: block;
+    transition-duration: 0.4s;
+
+}
+
+.nav_btn,
+nav a:hover {
+    border-radius: 50px;
+    color: #fff;
+    background-color: var(--primary-color);
+    text-decoration: none;
+    padding: 8px 20px;
+    display: inline-block;
+    transition-duration: 0.4s;
+}
+
+.bannerContent {}
+
+.bannerContent h5 {
+    color: #FD511A;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.bannerContent h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+}
+
+.bannerContent h1 span {
+    color: var(--primary-color);
+}
+
+.bannerContent p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    color: #6C6B6B;
+}
+
+.bannerContent a {}
+
+.bannerImg {}
+
+.Course_section img{
+    max-width: 100%;
+    height:auto;
+}
+.Course_section{
+    color: #F8FFFB;
+}
+.Course_section img{
+}
+.Course_section h3{
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #413960;
+}
+.Course_section P{
+    color: #585859;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.online_course_section{}
+.online_course_section img{
+    width: 331px;
+    height: 234px;
+    border-radius: 11px;
+}
+.online_course_section h3{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 10px 0px 0px;
+    color: #413960;
+}
+.online_course_section p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+}
+.online_course_section h2{
+    color: #413960;
+    font-weight: 700;
+    font-size: 36px;
+}
+.online-date{}
+.online-date img{
+    width: 24px;
+    height: 24px;
+}
+.online-date span{}
+
+
+
+@media (max-width:991px) {
+    .bannerContent h5 {
+        font-size: 14px;
+
+    }
+    .bannerContent h1 {
+        font-size: 38px;
+    }
+    
+}
+
+@media (max-width:767px) {
+    .bannerContent {
+        text-align: center;
+        padding: 40px 0;
+    }
+
+}
+@media (max-width:575px) {
+    .online_course_section {
+        
+        justify-content: center;
+        text-align: center;
+    }
+
+}
+.testimonial_container {}
+
+.testimonial_container h2 {
+    font-size: 36px;
+    color: var(--subhadding);
+    font-weight: 700;
+}
+
+
+.author_img img {
+    width: 120px;
+    height: 120px;
+}
+
+footer {
+    background: #282531;
+    padding: 55px 156px;
+    color: #ffffff ;
+}
+footer p{
+    color: #b7b5b5 ;
+}
+.footer_menu ul a{
+    text-decoration: none;
+    color: #b7b5b5 ;
+    
+    
+}
+
+
+@media (max-width: 991px) {
+
+    .logo{
+        width: 100px;
+    }
+    .books_container{
+        padding: 30px;
+    }
+    .course_content{
+        padding: 30px;
+    }
+    .banner_contant h1 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .book_box h2 {
+        font-size: 20px;
+        margin-top: 22px;
+        color: var(--subhadding);
+
+    }
+
+    .course_box {
+
+        width: 100%;
+        height: 100%;
+    }
+
+    .course_content h2 {
+        font-size: 38px;
+        color: var(--subhadding);
+        font-weight: 600;
+    }
+
+    .course_box img {
+        width: 100%;
+
+    }
+
+    .user .date img {
+
+        flex-shrink: 0;
+    }
+
+    .date_user img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .author_img img {
+        width: 90%;
+        height: 90%;
+    }
+
+    .testimonial_container {
+        text-align: center;
+    }
+    .author_img img {
+        width: 300px;
+        height: 300px;
+    }
+    footer {
+        background: #282531;
+        padding: 10px;
+        color: #ffffff ;
+    }
+}
